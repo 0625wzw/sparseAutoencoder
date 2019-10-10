@@ -1,3 +1,3 @@
 # sparseAutoencoder
-#实验目的：sparse Autoencoder练习——
-#使用语言：matlab
+#实验目的：使用matlab进行sparse Autoencoder练习
+
