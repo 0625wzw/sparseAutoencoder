@@ -11,12 +11,12 @@
 %
 %%======================================================================
 %% STEP 0: Here we provide the relevant parameters values that will
-% 第0步：提供可得到较好滤波器的相关参数值，不得改变以下参数
+% 第0步：提供可得到较好滤波器的相关参数值
 % allow your sparse autoencoder to get good filters; you do not need to
 % change the parameters below.
  
 visibleSize = 8*8; % number of input units 输入层单元数
-hiddenSize = 2; % number of hidden units 隐层单元数，默认为25
+hiddenSize = 25; % number of hidden units 隐层单元数，默认为25
 sparsityParam = 0.01; % desired average activation of the hidden units.稀疏值
 % (This was denoted by the Greek alphabet rho, which looks like a lower-case "p",
 % in the lecture notes).

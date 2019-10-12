@@ -38,7 +38,7 @@ function [value,grad] = simpleQuadraticFunction(x)
 % that computeNumericalGradients will use only the first returned value of this function.
 
 value = x(1)^2 + 3*x(1)*x(2);
-% 求偏导，即h(x1,x2)对x1和x2求导
+
 grad = zeros(2, 1);
 grad(1)  = 2*x(1) + 3*x(2);
 grad(2)  = 3*x(1);
